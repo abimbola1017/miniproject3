@@ -1,0 +1,277 @@
+<DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<title>my project</title>
+
+		<style type="text/css">
+			
+			div{
+				border: 1px solid red;
+                     
+               padding: 0px;
+               box-sizing: border-box;
+			}
+           
+
+           	 ul {list-style-type: none;}
+           	 nav{background-color: black;}
+           	 .main{background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("ss.jpg");
+                      min-height: 600px;
+                    background-repeat:cover;
+                   background-attachment:fixed ;
+           	 }
+           	 .main pol{
+           	 	text-align: center;
+           	 }
+
+           	 .text a{color:whitesmoke;}
+		</style>
+	</head>
+	<body>
+    <div class="container">
+
+
+
+           <!-- nav -->
+          <div class="row sticky-top">
+        	<div class="col text">
+        		<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid" style="height:40px;">
+    <a class="navbar-brand" href="#">FLAW-tech</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ABOUT">About</a>
+        </li>
+       
+          
+            <li class="nav-item">
+            	<a class="nav-link" href="#contactme">contact me</a></li>
+            <li class="nav-item">
+            	<a class="nav-link" href="#COMMENT">comment</a></li>
+            <li class="nav-item">
+               <a class="nav-link" href="#skills">Skills</a></li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+          
+</nav>
+        	</div>
+        </div>
+
+        <!-- banner -->
+        <div class="row main text-center">
+        
+
+
+            
+        <!-- <div class="row" style="height: 0px; width: 400px;  
+           position:relative; bottom:300px; left:350px; color:white;">-->
+        	 
+
+        	 <div class="col pol">
+          
+             <h6 style="text-align:center; color:white;padding-top: 150px;">Hi, I'am Abimbola</h6>
+             <h3 style="text-align:center; color:white;padding-top: 0px;"> <p>Fullstack Web Developer</p></h3>
+             <!-- <a href="" class="btn btn-primary rounded-pill" style="text-align: center;">contact me</a> -->
+              <button type="botton" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#contactme">contact me</button>
+        	</div>
+        </div>
+
+
+             
+
+
+
+        
+          
+
+
+           
+            
+
+
+
+          
+
+
+        	<div class="modal fade" id="contactme" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<br>
+        <label>NAME</label>
+        	<input type="text" name="username" placeholder="username" class="form-control">
+        <br>
+        <label>EMAIL</label>
+       	   	<input type="text" name="email" placeholder="enter email" class="form-control">
+       	   	<br>
+       	   	<label for="home address">Message:</label>
+<textarea name="my bio data" rows="2" cols="20"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="background-color:blue;">Close</button>
+        <button type="button" class="btn btn-danger
+        "style="background-color:blue">submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        
+             
+            
+       <!-- about me -->
+       <div class="row">
+
+       	<h3 style="text-align:center;" id="ABOUT">ABOUT</h3>
+       <div class="row" style=" /*position: absolute;*/ top:500px; left:410px;">
+       		<div class="col text-center">
+       			<img src="1.jpg" style="height:150px; width:150px;" class="rounded-pill">
+       		</div>
+          </div>
+
+       			<div class="row" style="min-height:200px; /*position: absolute;*/ ">
+       				<div class="col text-center">
+       			<h3>I am a professional web designer,</h3>
+       			<span>i have been working as a web developer for quite some time now. I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity. </span>
+       			<br>
+       			<ul>
+       			<li><a type="text" data-bs-toggle="offcanvas" href="#offcanvasRight" aria-controls="offcanvasRight">what i do</a></li>
+       		</ul>
+       		</div>
+       		</div>
+
+         
+
+                   
+       </div>
+
+
+
+
+     
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h4 class="offcanvas-title" id="offcanvasRightLabel" id="ABOUT">ABOUT</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <span>
+    	Welcome to flaw-tech, where innovation meets functionality, and your digital aspirations come to life! As a dedicated web development enthusiast, I've spent years honing my skills to craft unique and effective online solutions for individuals and businesses alike.
+
+At flaw-tech, we believe in the power of a well-designed website to make a lasting impression. Whether you're an ambitious entrepreneur looking to establish an online presence, or an established business aiming to revamp your digital identity, we are here to turn your vision into reality.
+
+my approach to web development is rooted in a passion for creating seamless, user-friendly experiences. We understand that your website is often the first interaction your audience has with your brand, and we're committed to making that experience unforgettable. From responsive design that adapts to any device, to intuitive navigation that keeps visitors engaged, our focus is on delivering excellence in every detail.
+    </span>
+  </div>
+</div>
+
+
+
+
+
+
+
+<br>
+        
+        <!-- skills -->
+       <div class="row" style="min-height: 300px;">
+
+       	   <div class="row">
+       		<div class="col">
+       			<h2 style="text-align:center;" id="skills">skills</h2>
+       		</div>
+           </div>
+                
+
+                <h3>Html</h3>
+             <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped" style="width: 95%"></div>
+</div>
+
+<h3>css</h3>
+<div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-success" style="width: 90%"></div>
+</div>
+<h3>Vision Control With Git</h3>
+<div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+</div>
+
+<h3>Bootstraps
+<div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+</div>
+
+<h3>SEO</h3>
+<div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-danger" style="width:90%"></div>
+</div>
+  
+     </div>
+
+<br>
+        <!-- contact us -->
+       <div class="row" style="min-height: 300px;">
+
+       	   
+       	   <div class="col">
+
+       	   	<h2 style="text-align:center;" id="COMMENT">COMMENT</h2>
+       	   	<form>
+       	   		<label>NAME</label>
+       	   	<input type="text" name="username" placeholder="username" class="form-control">
+   <br>
+       	   	<label>EMAIL</label>
+       	   	<input type="text" name="email" placeholder="enter email" class="form-control">
+          
+<br>
+          <label>Slect Gender</label>
+       	   	<label>male</label>
+ <input type="radio" name="gender" id="male" value="male"/>
+ <label>female</label>
+ <input type="radio" name="gender" id="male" value="male"></label>
+<br>
+ <label for="home address">Message:</label>
+<textarea name="my bio data" rows="4" cols="50"></textarea>
+
+<br>
+<a href="" class="btn btn-secondary form-control" >Summit</a>
+<br>
+       	   	</form>
+       	   </div>
+
+       </div>
+
+
+
+
+
+    
+    </div> 
+	<script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+	</body>
+	</html>
